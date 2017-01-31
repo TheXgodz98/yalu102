@@ -8,20 +8,21 @@ Please use the "Issues" tab for **code related** issues only. If you need suppor
 
 ## Supported Devices and iOS versions
 
-| Device | Version |
+| Device | Version | Other
 |---------|----------|
-| iPad Pro  | iOS 10.0.0 -> iOS 10.2 |
-| iPhone 6S  | iOS 10.0.0 -> iOS 10.2 |
-| iPhone SE  | iOS 10.0.0 -> iOS 10.2 |
-| iPhone 5S  | iOS 10.0.0 -> iOS 10.2 |
-| iPad Air| iOS 10.0.0 -> iOS 10.2 |
-| iPad Mini 2| iOS 10.0.0 -> iOS 10.2 |
-| iPhone 6  | iOS 10.0.0 -> iOS 10.2 |
-| iPad Mini 3| iOS 10.0.0 -> iOS 10.2 |
-| iPad Air 2| iOS 10.0.0 -> iOS 10.2 |
-| iPad Mini 4 | iOS 10.0.0 -> iOS 10.2 |
-| iPod touch (6G)  | iOS 10.0.0 -> iOS 10.2 |
-| iPhone 7 | iOS 10.0.0 -> 10.2.1 |
+| iPad Pro  | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPhone 6S  | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPhone SE  | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPhone 5S  | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPad Air| iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPad Mini 2| iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPhone 6  | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPad Mini 3| iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPad Air 2| iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPad Mini 4 | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPod touch (6G)  | iOS 10.0.0 -> iOS 10.2 | n/a |
+| iPhone 7 | iOS 10.0.0 -> 10.2.1 | mobile substrate disabled |
+| iPhone 5 | iOS 10.0.0 —> 10.1.1 | KPP bypass patched memory leak |
 
 ### Planned Support:
 
@@ -30,6 +31,7 @@ In the near future, the jailbreak will support the following devices:
 | Device | Version |
 |---------|----------|
 | iPhone 7 Plus  | iOS 10.0.0 -> iOS 10.2.1 |
+| iPhone 5 | iOS 10.0.0 -> iOS 10.2.1 | 
 
 **Note, the iPhone 7 is only supported till iOS 10.1.1**
 If you are already on iOS 10.2 with an iPhone 7, **stay there**. The actual exploit behind this still works, but the KPP bypass does not.
@@ -74,3 +76,6 @@ Do not install things that are untested.
 Create a fork of the repository, make your changes and then create a pull request.
 Please be sure to check if the pull request has been made before, before creating a new one. Note, any pull requests adding IOKit headers will be closed. Please respect copyright laws, and do not distribute / download IOKit headers from unofficial sources: they are bundled legally with macOS SDK
 
+## Substrate
+
+On the iPhone 7 the mobile substrate has been disabled due to a KPP misuse of function in the code, please respect this and do NOT get any repos that re-enable this, doing so may cause malfunction to your device. 
