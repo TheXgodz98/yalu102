@@ -22,16 +22,18 @@ Please use the "Issues" tab for **code related** issues only. If you need suppor
 | iPad Mini 4 | iOS 10.0.0 -> iOS 10.2 | n/a |
 | iPod touch (6G)  | iOS 10.0.0 -> iOS 10.2 | n/a |
 | iPhone 7 | iOS 10.0.0 -> 10.2.1 | mobile substrate disabled |
-| iPhone 5 | iOS 10.0.0 —> 10.1.1 | KPP bypass patched memory leak |
+| iPhone 7 Plus | iOS 10.0.0 -> 10.2.1 | mobile substrate disabled |
+| iPhone 5 | iOS 10.0.0 -> 10.1.1 | KPP bypass patched memory leak |
 
 ### Planned Support:
 
 In the near future, the jailbreak will support the following devices:
 
-| Device | Version |
-|---------|----------|
-| iPhone 7 Plus  | iOS 10.0.0 -> iOS 10.2.1 |
-| iPhone 5 | iOS 10.0.0 -> iOS 10.2.1 | 
+| Device | Version | Additions | 
+|---------|----------|----------|
+| iPhone 7 | iOS 10.0.0 -> 10.2.1 | enable sub |
+| iPhone 7 Plus | iOS 10.0.0 -> 10.2.1 | enable sub |
+| iPhone 5 | iOS 10.0.0 -> iOS 10.2.1 | bypass |
 
 **Note, the iPhone 7 is only supported till iOS 10.1.1**
 If you are already on iOS 10.2 with an iPhone 7, **stay there**. The actual exploit behind this still works, but the KPP bypass does not.
@@ -62,14 +64,9 @@ Do not install things that are untested.
 * Open the application and follow instructions.
 
 
-| Version | Download | SHA1 |
-|---------|----------|------|
-| Beta 6  | [Link](https://yalu.qwertyoruiop.com/yalu102_beta6.ipa) | 0130ebe60c97e2013a4b849b7d9bc321d749f304  |
-| Beta 5  | [Link](https://yalu.qwertyoruiop.com/yalu102_beta5.ipa) | f8eb6cd37054a9d25b818e3bddd13bfedbf72df1  |
-| Beta 4  | [Link](https://yalu.qwertyoruiop.com/yalu102_beta4.ipa) | f8270e59d7d7267613ffa63217b91fea425eec36  |
-| Beta 3  | [Link](https://yalu.qwertyoruiop.com/yalu102_beta3.ipa) | b2e0bdd31566f876d67cba036b5d29aef7ff257d  |
-| Beta 2  | [Link](https://yalu.qwertyoruiop.com/yalu102_beta.ipa) | 4fddad7cca8aa0c0a6579c1d63d00917f15efc86  |
-| Beta 1  | [Link](https://yalu.qwertyoruiop.com/yalu102_alpha.ipa) | 2fe14f1c1e1a0d26203bbb123f6747a978dd2b4f  |
+| Version | Download |
+|---------|----------|
+| Beta 1 | Coming Soon |
 
 ## Contributing
 
@@ -78,4 +75,4 @@ Please be sure to check if the pull request has been made before, before creatin
 
 ## Substrate
 
-On the iPhone 7 the mobile substrate has been disabled due to a KPP misuse of function in the code, please respect this and do NOT get any repos that re-enable this, doing so may cause malfunction to your device. 
+On the iPhone 7 & Plus models the mobile substrate has been disabled due to a KPP misuse of function in the code, please respect this and do NOT get any repos that re-enable this, doing so may cause malfunction to your device. 
