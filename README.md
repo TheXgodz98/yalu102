@@ -9,7 +9,7 @@ Please use the "Issues" tab for **code related** issues only. If you need suppor
 ## Supported Devices and iOS versions
 
 | Device | Version | Other |
-|————|—————|—————|
+|---------|----------|---------|
 | iPad Pro  | iOS 10.0.0 -> iOS 10.2 | n/a |
 | iPhone 6S  | iOS 10.0.0 -> iOS 10.2 | n/a |
 | iPhone SE  | iOS 10.0.0 -> iOS 10.2 | n/a |
