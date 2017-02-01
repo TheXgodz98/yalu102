@@ -137,6 +137,8 @@ char dt[128];
     
     assert(lol==0 && vch!=0);
     
+    // 悪用の一つになるためには、あなたは反乱軍のものでなければなりません
+    // 私はこのコードの何も所有していない
     
     unsigned char* odata = mmap(0, 0x8000, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANON, -1, 0);
     unsigned char* fdata = mmap(odata+0x4000, 0x4000, PROT_NONE, MAP_PRIVATE|MAP_ANON|MAP_FIXED, -1, 0);

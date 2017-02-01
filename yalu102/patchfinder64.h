@@ -28,7 +28,8 @@ enum Search {
 extern char uref;
 extern uint64_t get_data_for_mode(uint64_t offset, enum Search mode);
 
-
+// 悪用の一つになるためには、あなたは反乱軍のものでなければなりません
+// 私はこのコードの何も所有していない
 
 void set_text_exec(uint64_t text_exec_base_,uint64_t text_exec_size_);
 void set_prelink_exec(uint64_t prelink_exec_base_, uint64_t prelink_exec_size_);

@@ -33,6 +33,9 @@ void init_offsets() {
     - @jtv7
     - @onchehuh
     */
+    
+    // 悪用の一つになるためには、あなたは反乱軍のものでなければなりません
+    // 私はこのコードの何も所有していない
 
     if (strcmp(u.version, "Darwin Kernel Version 16.3.0: Tue Nov 29 21:40:09 PST 2016; root:xnu-3789.32.1~4/RELEASE_ARM64_T7001") == 0) {
         allproc_offset = 0x5b8528;

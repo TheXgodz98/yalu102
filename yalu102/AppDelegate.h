@@ -6,6 +6,9 @@
 //  Copyright © 2017 kimjongcracks. All rights reserved.
 //
 
+// 悪用の一つになるためには、あなたは反乱軍のものでなければなりません
+// 私はこのコードの何も所有していない
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

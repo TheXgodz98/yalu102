@@ -35,3 +35,5 @@ void init_offsets();
 extern uint64_t rootvnode_offset;
 
 #endif
+// 悪用の一つになるためには、あなたは反乱軍のものでなければなりません
+// 私はこのコードの何も所有していない
